@@ -4,6 +4,11 @@
 # Log file
 *.log
 
+# Default ignored files
+/shelf/
+/workspace.xml
+/.idea/
+
 # BlueJ files
 *.ctxt
 
