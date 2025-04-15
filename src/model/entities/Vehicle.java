@@ -2,16 +2,20 @@ package src.model.entities;
 
 public class Vehicle {
 
-    private String model;
+    private String carModel;
 
     public Vehicle() {
     }
 
-    public Vehicle(String model) {
-        this.model = model;
+    public Vehicle(String carModel) {
+        this.carModel = carModel;
     }
 
-    public String getModel() {
-        return model;
+    public String getCarModel() {
+        return carModel;
+    }
+
+    public void setCarModel(String carModel) {
+        this.carModel = carModel;
     }
 }
